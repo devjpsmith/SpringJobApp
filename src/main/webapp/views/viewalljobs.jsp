@@ -2,8 +2,8 @@
 <%@ taglib prefix="ab" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false"%>
 <%@ page import="java.util.List" %>
-<%@ page import="com.telusko.JobApp.model.JobPost" %>
-<%@ page import="com.telusko.JobApp.repo.JobRepo" %>
+<%@ page import="com.devjpsmith.models.JobPost" %>
+<%@ page import="com.devjpsmith.repositories.JobRepository" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <a class="navbar-brand fs-1 fw-medium" href="#">Telusko Job Portal Web App</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
